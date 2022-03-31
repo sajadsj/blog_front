@@ -6,10 +6,10 @@ export default function Topbar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
+      <a href="https://facebook.com/sajadsojoudi"> <i className="topIcon fab fa-facebook-square"> </i></a>
+      <a href="https://instagram.com/sajadsojoudi"> <i className="topIcon fab fa-instagram-square"> </i></a>
+      <a href="https://github.com/sajadsj"><i className="topIcon fab fa-github-square"></i></a>
+      <i className="topIcon fab fa-twitter-square"></i>
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -33,7 +33,7 @@ export default function Topbar() {
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg"
               alt=""
             />
           </Link>
